@@ -1,2 +1,1 @@
-# inspinia
 Bootstrap admin theme
