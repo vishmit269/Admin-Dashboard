@@ -9,7 +9,7 @@ $(function() {
     function doPlot(position) {
         $.plot($("#flot-line-chart-multi"), [{
             data: oilprices,
-            label: "Logins"
+            label: "Users"
         }], {
             xaxes: [{
                 mode: 'time'
@@ -38,7 +38,7 @@ $(function() {
             tooltip: true,
             tooltipOpts: {
                 content: "%s for %x was %y",
-                xDateFormat: "%y-%0m-%0d",
+                xDateFormat: "%y-%m-%d",
 
                 onHover: function(flotItem, $tooltipEl) {
                     // console.log(flotItem, $tooltipEl);
